@@ -1,0 +1,31 @@
+0.5.1
+
+  * Install manpage into correct directory.
+
+  -- Armin Berres <trigger@space-based.de>  Sun, 30 Nov 2008 12:10:11 +0100
+
+0.5.0
+
+  * Port to KDE 4.
+
+  -- Armin Berres <trigger@space-based.de> Sun, 22 Nov 2008 18:56:28 +0100
+
+0.4.1
+
+  * Add manpage.
+  * Apply patch written by Gustavo De Nardin to return with an error, if the
+    user cancelled the input. Thanks Gustavo.
+
+ -- Armin Berres <trigger@space-based.de> Mon, 09 Jun 2008 20:03:00 +0200
+
+0.4
+
+  * New maintainer Armin Berres. Hans van Leeuwen vanished -- thanks for his
+    work so far.
+  * Use CMake as build system and remove all the Autotools related files.
+  * Only show the option to save the password if the wallet could be opened
+    before.
+  * Close wallet after we used it.
+  * Some minor fixes.
+
+ -- Armin Berres <trigger@space-based.de>  Wed, 26 Mar 2008 23:53:11 +0100
